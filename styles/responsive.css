@@ -1,0 +1,513 @@
+@media screen and (max-width: 1280px) {
+	
+	.title-box .title-text h1 {
+		font-size: 60px;
+	}
+
+	.title-box .catch-copy {
+		font-size: 30px;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.title-box {
+		margin-top: 10%;
+	}
+	
+	/*製品詳細*/
+	.details-page_inner {
+		width: 90%;
+	}
+	
+	.section-title {
+		font-size: 27px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	/*トップページ*/
+	.home-header {
+		max-height: unset;
+	}
+	
+	.top-page_inner {
+		width: 90%;
+	}
+	
+	.title-box {
+		margin-top: 5%;
+		display: block;
+	}
+	
+	.title-box .title-text {
+		width: 100%;
+	}
+	
+	.title-box .title-text h1 {
+    	font-size: 60px;
+	}
+	
+	.title-box .catch-copy {
+    	font-size: 34px;
+    	padding-top: 10px;
+	}
+	
+	.title-box .top-image {
+		width: 90%;
+		float: right;
+	}
+	
+	.item-about .description-box {
+		display: block;
+	}
+	
+	.item-about .description-box .description-img {
+		margin-right: 0;
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.item-about .description-box .text-box {
+		margin-top: 5%;
+	}
+	
+	.usage-details_contents {
+		display: block;
+	}
+	
+	.usage-details_contents .description-box {
+		display: block;
+		text-align: center;
+		background-color: #fff;
+		padding: 20px;
+	}
+	
+	.usage-details_contents .description-box .left-arrow {
+		display: none;
+	}
+	
+	.usage-details_contents .usage-image {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.item_usage .foot-sensor_img {
+		display: none;
+	}
+	
+	.item_usage .another-usage .text-box {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.item_usage .another-usage {
+		width: 100%;
+	}
+	
+	.item_usage .another-usage .headline {
+		font-size: 21px;
+	}
+	
+	
+	/*仕様*/
+	.item-details_table {
+		font-size: 14px;
+	}
+	
+	.item-details .software-content .explain-text {
+		font-size: 16px;
+	}
+	
+	/*会社概要*/
+	.history-list {
+		font-size: 16px;
+	}
+	
+	.history-list th, .history-list td ul li .info-name {
+		width: 15%;
+	}
+	
+	.history-list th, .history-list td {
+		border-width: 1px;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	/*トップページ*/
+	.title-box {
+		margin-top: 10%;
+	}
+	
+	.title-box .top-image {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	/*トップページ*/
+	.title-box {
+		margin-top: 3%;
+	}
+	
+	.title-box .top-image {
+		width: 90%;
+	}
+	
+	.gloval-nav .site-logo {
+		margin-right: 5%;
+		height: auto;
+	}
+	
+	.gloval-nav ul a {
+		margin-right: unset;
+	}
+	
+	.item-about .description-box {
+		display: block;
+	}
+	
+	.item-about .description-box .description-img {
+		margin: 0 auto;
+	}
+	
+	.item_usage .another-usage {
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 585px) {
+	/*トップページ*/
+	.title-box, .title-box .top-image {
+		margin-top: 10%;
+	}
+	
+	.home-header {
+		padding-top: 20%;
+	}
+	
+	.gloval-nav .site-logo {
+		width: 20%;
+	}
+	
+	.gloval-nav ul a, .drop-down {
+		font-size: 12px;
+	}
+	
+	.title-box .title-text h1 {
+		font-size: 50px;
+	}
+	
+	.title-box .catch-copy {
+		font-size: 20px;
+	}
+	
+	.title-box .top-image {
+		width: 100%;
+	}
+	
+	.main-area section {
+		padding-top: 40px 
+	}
+	
+	.section-title {
+		padding-right: 0;
+		font-size: 21px;
+		margin-bottom: 30px;
+	}
+	
+	.item-about .description-box .text-box {
+		font-size: 16px;
+	}
+	
+	.item-about .small-label {
+		font-size: 18px;
+	}
+	
+	.table-wrapper {
+		overflow: scroll;
+	}
+	
+	.item_table-list table {
+		width: 150%;
+		font-size: 12px;
+	}
+	
+	.item_table-list {
+    	margin-top: 35px;
+	}
+	
+	.usage-details_contents {
+		width: 100%;
+	}
+	
+	.usage-details_contents .headline {
+		font-size: 16px;
+	}
+	
+	.usage-details_contents .description-text p {
+		font-size: 14px;
+	}
+	
+	.item_usage .foot-sensor_img {
+		display: none;
+	}
+	
+	.item_usage .another-usage .headline {
+		font-size: 16px;
+	}
+	
+	.item_usage .another-usage .text-box {
+		width: 100%;
+		margin-right: unset;
+	}
+	
+	.item_usage .another-usage {
+		font-size: 14px;
+		margin-top: 45px;
+		width: 100%;
+	}
+	
+	.item_usage .another-usage .annotation, .item_usage .another-usage p {
+		font-size: 14px;
+	}
+	
+	/*製品詳細*/
+	.details-page_inner {
+		width: 90%;
+	}
+	
+	.item-details .contents-box .sub-title {
+		font-size: 18px;
+		margin-top: 40px;
+	}
+	
+	.item-details .contents-box {
+		width: auto;
+		margin: unset;
+	}
+	
+	.item-details .contents-box .sub-title.table-list::after, .item-about .small-label::after {
+		content: "横スクロール可能です。";
+		font-size: 14px;
+		font-weight: normal;
+	}
+	
+	.item-about .small-label.feature::after {
+		content: unset;
+	}
+	
+	.item-about .list-box {
+		font-size: 14px;
+	}
+	
+	.item-details .table-wrapper {
+		overflow: scroll;
+	}
+	
+	.item-details .contents-box .note {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	
+	.item-details .contents-box .software-content {
+		display: block;
+	}
+	
+	.item-details .contents-box .software-content:last-child {
+		margin-top: 40px;
+	}
+	
+	.item-details .software-content .software-img {
+		width: 100%;
+	}
+	
+	.item-details .left-arrow, .item-details .right-arrow, .price-label {
+		display: none;
+	}
+	
+	.item-details .software-content .explain-text {
+		font-size: 14px;
+	}
+	
+	.item-details .software-content .explain-text.left, .item-details .software-content .software-img.llsensor::after {
+		margin-left: unset;
+		margin-top: 10px;
+	}
+	
+	.item-details .software-content .explain-text.right {
+		display: none;
+	}
+	
+	.item-details .software-content .software-img.llsensor::after {
+		content: "オプション表示用ソフト「LL Sensor」のデータ表示オプションと編集メニュー例。\A付属の評価用ソフトより、高機能です。\A価格：¥368000";
+		white-space: pre-wrap;
+		display: block;
+		font-size: 14px;
+	}
+	
+	.system-example {
+		width: auto;
+		margin-top: 20px;
+	}
+	
+	.system-example .examples {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	
+	.youtube-link .link-contents .icon {
+		width: 15%;
+	}
+	
+	.youtube-link .link-contents .text {
+		font-size: 14px;
+		padding-left: 2%;
+	}
+	
+	.default-btn {
+		font-size: 16px;
+    	padding: 10px 0px;
+		width: 100%;
+	}
+	
+	/*会社概要*/
+	.ceo-message .message {
+		font-size: 16px;
+	}
+}
+
+
+
+@media screen and (max-width: 437px) {
+	.home-navigation, .navigation-fixed {
+		padding: 15px 0 0 15px;
+	}
+	
+	.top-page_inner {
+		width: 90%;
+	}
+	
+	.title-box .title-text h1 {
+		font-size: 40px;
+	}
+	
+	.gloval-nav {
+		flex-wrap: wrap;
+		align-items: center;
+		padding-bottom: 5px;
+	}
+	
+	.gloval-nav .site-logo {
+		margin-right: 3%;
+	}
+	
+	.gloval-nav ul {
+		padding: 10px 0 5px 0;
+	}
+	
+	.gloval-nav ul a {
+		padding: 3px;
+	}
+	
+	.drop-down ul {
+		padding: 15px 0 0 0;
+	}
+	
+	.item-details_table {
+		font-size: 12px;
+		width: 230%;
+	}
+	
+	.history-list {
+		font-size: 12px;
+		table-layout: fixed;
+	}
+	
+	.history-list td {
+		padding: 10px 0 10px 10px;
+	}
+	
+	.footer {
+		padding: 10px 0;
+    	font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.gloval-nav .site-logo {
+		width: 17%;
+	}
+	
+	.title-box .top-image {
+		margin-top: 10%;
+	}
+	
+	.section-title {
+		font-size: 21px;
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 25px;
+	}
+	
+	.main-area section {
+		padding-top: 10%;
+	}
+	
+	.item-about .description-box .text-box {
+		font-size: 14px;
+	}
+	
+	.card-contents {
+		display: block;
+	}
+	
+	.youtube-link .link-contents .text {
+		font-size: 12px;
+	}
+	
+	.ceo-message .message {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.title-box, .title-box .top-image {
+		margin-top: 5%;
+	}
+	
+	.title-box .top-image {
+		width: 80%;	
+	}
+	
+	.title-box .catch-copy {
+		line-height: 1.4em;
+	}
+	
+	.title-box .title-text h1 {
+    	font-size: 35px;
+	}
+	
+	.section-title {
+		font-size: 18px;
+		letter-spacing: -0.5px;
+	}
+	
+	.default-btn {
+		font-size: 14px;
+	}
+	
+	.item-details .contents-box .sub-title {
+		font-size: 16px;
+	}
+	
+	.item_table-list table {
+		width: 165%;
+	}
+	
+	.item-details_table {
+		font-size: 12px;
+	}
+}

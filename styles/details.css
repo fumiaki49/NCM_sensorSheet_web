@@ -1,0 +1,198 @@
+/*LL Sensorの仕様/価格*/
+
+/*ハードウェア*/
+.item-details .contents-box {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.item-details .contents-box .sub-title {
+	font-size: 24px;
+	margin-top: 70px;
+}
+
+.item-details .contents-box .note {
+	font-size: 18px;
+	line-height: 1.8em;
+	margin-top: 17px;
+}
+
+.item-details_table {
+	margin-top: 15px;
+	font-size: 16px;
+	width: 100%;
+}
+
+.item-details_table th, .item-details_table td {
+	border: 2px solid #000;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.item-details_table th {
+	font-weight: normal;
+	width: 10%;
+    padding: 15px 0;
+}
+
+.item-details_table td {
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+.item-details_table .th-img {
+    padding: 0;
+    background-color: #fff;
+}
+
+.item-details_table .th-side {
+	width: 10%;
+	padding: 15px 0;
+	background-color: #e3efcf;
+}
+
+.item-details_table .th-subTitle {
+	background-color: #acd382;
+}
+
+.item-details_table .full-td {
+	width: 100%;
+}
+
+.item-details_table .long-text {
+	text-align: left;
+	padding: 15px 10px;
+}
+
+.item-details_table .price {
+	background-color: #f9ceb2;
+}
+
+/*ソフトウェア*/
+.item-details .contents-box .software-content {
+	display: flex;
+	margin-top: 20px;
+}
+
+.item-details .contents-box .software-content:last-child {
+	align-items: flex-end;
+}
+
+.item-details .software-content .software-img {
+	width: 75%;
+}
+
+.item-details .software-content .text-box {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+
+.item-details .software-content .explain-text {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+
+.item-details .software-content .explain-text .annotation {
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 5px;
+	color: #2D2D2D;
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.item-details .software-content .explain-text.left {
+	margin-left: 50px;
+}
+
+.item-details .software-content .explain-text.right {
+	margin-right: 50px;
+	position: relative;
+}
+
+.item-details .left-arrow, .item-details .right-arrow {
+	width: 7%;
+}
+
+.item-details .left-arrow {
+	margin-right: 20px;
+}
+
+.item-details .right-arrow {
+	margin-left: 20px;
+}
+
+.price-label {
+	width: 70%;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+/*システム構成例*/
+.system-example {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.system-example .examples {
+	font-size: 18px;
+	line-height: 1.8em;
+	margin-top: 20px;
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.youtube-link {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.youtube-link .link-contents {
+	display: flex;
+    align-items: center;
+    font-size: 18px;
+	border: 1px solid #c4302b;
+	background-color: #fff;
+	position: relative;
+	transition: 0.3s;
+}
+
+.youtube-link .link-contents:hover {
+	color: #fff;
+}
+
+.youtube-link .link-contents::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	content: '';
+	background-color: #c4302b;
+	transform-origin: right top;
+	transform: scale(0, 1);
+	transition: transform 0.6s;
+}
+
+.youtube-link .link-contents:hover::before {
+	transform-origin: left top;
+	transform: scale(1, 1);
+}
+
+.youtube-link .link-contents .icon {
+	width: 10%;
+	z-index: 2;
+}
+
+.youtube-link .link-contents .text {
+	padding-left: 15px;
+	z-index: 2;
+}

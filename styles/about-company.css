@@ -1,0 +1,49 @@
+.ceo-message .message {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+
+.ceo-message .message br {
+	content: "";
+	display: block;
+	margin: 15px 0;
+}
+
+.history-list {
+	width: 100%;
+	font-size: 18px;
+}
+
+.history-list tr {
+	height: 40px;
+}
+
+.history-list th {
+	text-align: center;
+	background-color: #e3efcf;
+}
+
+.history-list th, .history-list td {
+	vertical-align: middle;
+	border: 2px solid #000;
+}
+
+.history-list td {
+	padding: 15px 0 15px 20px;
+	background-color: #fff;
+}
+
+.history-list td ul li {
+	display: flex;
+	margin-bottom: 25px;
+	line-height: 1.8em;
+}
+
+.history-list td ul li:last-child {
+	margin-bottom: 0;
+}
+
+.history-list td ul li .info-name {
+	width: 8%;
+}

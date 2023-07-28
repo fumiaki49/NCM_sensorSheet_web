@@ -1,0 +1,405 @@
+* {
+	font-family: 'BIZ UDPGothic', sans-serif;
+	font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+.top-page_inner {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.details-page_inner {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.home-header {
+	padding-top: 100px;
+	background-color: #fff;
+	background-size: cover;
+	font-size: 18px;
+	height: 100vh;
+	max-height: 820px;
+	user-select: none;
+}
+
+.home-navigation {
+	transition: all 0.3s;
+}
+
+.navigation-fixed, .home-navigation {
+	width: 100%;
+    padding: 25px 0 15px 60px;
+    background-color: #fff;
+	position: fixed;
+	z-index: 102;
+}
+
+.navigation-fixed {
+	box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.5);
+}
+
+.fix-position {
+	padding-top: 75px;
+}
+
+.gloval-nav, .gloval-nav ul {
+	display: flex;
+}
+
+.gloval-nav .site-logo {
+	width: 120px;
+	height: 50px;
+	margin-right: 70px;
+	transition: all 0.3s;
+}
+
+.gloval-nav .site-logo:hover {
+	opacity: 0.7;
+}
+
+.gloval-nav {
+	width: 100%;
+}
+
+.gloval-nav ul {
+	align-items: end;
+}
+
+.gloval-nav ul a {
+	display: block;
+	margin-right: 20px;
+	font-size: 16px;
+	padding: 3px 6px;
+	border: 1px solid #fff;
+	transition: all 0.3s;
+}
+
+.gloval-nav ul a:hover {
+	border-color: #000;
+}
+
+.gloval-nav ul a:last-child {
+	margin-right: 0;
+}
+
+.drop-down {
+	position: relative;
+	user-select: none;
+}
+
+.drop-down #button {
+	border: 1px solid #fff;
+	padding: 3px 6px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.drop-down #button.range-expansion::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	cursor: default;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.drop-down ul {
+	position: absolute;
+    display: none;
+	padding-top: 25px;
+	transition: all 0.3s;
+	z-index: 103;
+}
+
+.drop-down ul.active {
+	display: block;
+}
+
+.drop-down ul a {
+	margin-top: 10px;
+	margin-right: 0;
+	padding: 10px 50px 10px 5px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.drop-down #button:hover {
+	border-color: #000;
+}
+
+.drop-down ul a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.drop-down ul a:first-child {
+	margin-top: 0;
+}
+
+
+.title-box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.title-box .title-text {
+	width: 45%;
+}
+
+.title-box .title-text .slide-in {
+	opacity: 0;
+}
+
+.title-box .title-text h1 {
+	width: 100%;
+	font-size: 78px;
+	letter-spacing: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #000;
+	font-weight: bold;
+}
+
+.title-box .catch-copy {
+	padding-top: 30px;
+	font-size: 45px;
+	line-height: 1.8em;
+}
+
+.title-box .catch-copy strong {
+	color: rgb(32, 124, 32);
+}
+
+.title-box .top-image {
+	width: 55%;
+	opacity: 0;
+}
+
+/* メインエリア */
+.main-area {
+	width: 100%;
+	background-color: rgb(235, 235, 235);
+	padding-bottom: 60px;
+}
+
+.main-area section {
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.section-title {
+	width: fit-content;
+	font-size: 36px;
+	letter-spacing: 1.5px;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+	padding-right: 85px;
+    padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+
+/*製品紹介*/
+.item-about .description-box {
+	display: flex;
+}
+
+.item-about .description-box .description-img {
+	margin-right: 40px;
+	width: 100%;
+}
+
+.item-about .description-box .description-img.illustration {
+	width: 80%;
+}
+
+.item-about .description-box .text-box {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.item-about .description-box .text-box br {
+	display: block;
+	content: "";
+	margin: 20px 0;
+}
+
+.item-about .description-box .text-box .list-box {
+	margin-top: 20px;
+}
+
+.item-about .description-box .text-box .list-box ul {
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.item-about .small-label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.item_table-list {
+	margin-top: 50px;
+}
+
+.item_table-list table {
+	width: 100%;
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.item_table-list table th {
+	font-weight: normal;
+	background-color: #d2eaf9;
+}
+
+.item_table-list table td {
+	background-color: #fff;
+}
+
+.item_table-list table .ours {
+	background-color: #fad2b2;
+}
+
+.item_table-list table .ours-performance {
+	background-color: #feefde;
+}
+
+.item_table-list table th, .item_table-list table td {
+	border: 2px solid #000;
+	text-align: center;
+	padding: 15px 0;
+}
+
+
+
+/*利用用途/ユーザー事例*/
+.usage-details_contents {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.usage-details_contents .usage-image {
+	width: 40%;
+	margin-right: 5%;
+}
+
+.usage-details_contents .description-box {
+    display: flex;
+    align-items: center;
+}
+
+.usage-details_contents .description-box .left-arrow {
+    width: 5%;
+    margin-right: 2%;
+}
+
+.usage-details_contents .description-text p {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+
+
+.card-contents {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	align-items: flex-end;
+}
+
+.card-contents .card {
+	width: 40%;
+	margin-right: 5%;
+}
+
+.card-contents .card .description-text {
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.headline {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.8em;
+}
+
+.card-contents .card .description-text p {
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 17px;
+}
+
+.item_usage .another-usage {
+	font-size: 18px;
+	display: flex;
+	align-items: flex-end;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.item_usage .another-usage .text-box {
+	width: 60%;
+	margin-right: 5%;
+}
+
+.item_usage .another-usage ul {
+	margin-top: 20px;
+	line-height: 1.8em;
+	padding-left:1em;
+	text-indent:-1em;
+}
+
+.item_usage .another-usage p {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 1.8em;
+}
+
+.item_usage .another-usage .annotation {
+	font-size: 16px;
+	color: #e94539;
+	margin-top: 10px;
+}
+
+.item_usage .foot-sensor_img {
+	width: 35%;
+}
+
+.item_usage .foot-sensor_img figcaption {
+	text-align: center;
+}
+
+.default-btn {
+	color: #fff;
+    background-color: #77c180;
+    font-size: 22px;
+    padding: 12px 25px;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+	transition: all 0.3s;
+}
+
+.default-btn:hover {
+	background-color: #35a057;
+}
+
+.footer {
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding: 15px 0;
+}
